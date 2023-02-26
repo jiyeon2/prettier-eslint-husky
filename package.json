@@ -6,7 +6,9 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "echo": "echo \"Hello, World\" && exit 1",
+    "format": "prettier --write --cache ./src/**/*.{js,jsx}"
   },
   "dependencies": {
     "react": "^18.2.0",
@@ -18,6 +20,7 @@
     "@vitejs/plugin-react": "^3.1.0",
     "eslint": "^8.35.0",
     "eslint-config-prettier": "^8.6.0",
+    "eslint-config-react-app": "^7.0.1",
     "prettier": "^2.8.4",
     "vite": "^4.1.0"
   }
