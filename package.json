@@ -8,7 +8,8 @@
     "build": "vite build",
     "preview": "vite preview",
     "echo": "echo \"Hello, World\" && exit 1",
-    "format": "prettier --write --cache ./src/**/*.{js,jsx}"
+    "format": "prettier --write --cache ./src/**/*.{js,jsx}",
+    "lint": "eslint --cache ./src/**/*.{js,jsx}"
   },
   "dependencies": {
     "react": "^18.2.0",
@@ -21,6 +22,7 @@
     "eslint": "^8.35.0",
     "eslint-config-prettier": "^8.6.0",
     "eslint-config-react-app": "^7.0.1",
+    "eslint-plugin-react": "^7.32.2",
     "prettier": "^2.8.4",
     "vite": "^4.1.0"
   }
